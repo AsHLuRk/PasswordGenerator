@@ -39,8 +39,9 @@ const setPass= useCallback(()=>{
 
   return (
     <>
-    <div>
-      <h1>
+    <div className='items-center mx-auto'>
+          <h1 className="text-5xl text-7xl font-black  text-transparent bg-clip-text bg-gradient-to-r from-white via-purple-200 to-gray-500">
+      
         PASSWORD GENERATOR
       </h1>
     </div>
