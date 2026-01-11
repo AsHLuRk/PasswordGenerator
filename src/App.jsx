@@ -38,6 +38,12 @@ const setPass= useCallback(()=>{
   }, [passowrd])
 
   return (
+    <>
+    <div>
+      <h1>
+        PASSWORD GENERATOR
+      </h1>
+    </div>
     <div className='items-center w-full max-w-md mx-auto  bg-gray-800  my-8 p-1 rounded-lg'>
     <div className='flex m-2 bg-amber-100 rounded-lg overflow-hidden'>
      <input type='text' className='border-zink-900 font-bold text-black w-full' value={passowrd}
@@ -93,6 +99,7 @@ const setPass= useCallback(()=>{
       </div>
     </div>
     </div>
+    </>
   )
 }
 
