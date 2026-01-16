@@ -52,7 +52,7 @@ const setPass= useCallback(()=>{
      placeholder='Password'
      ref={passref}>
      </input>
-     <button onClick={passwordcopy} className='bg-orange-400 w-[50px] active:scale-95'
+     <button onClick={passwordcopy} className='bg-orange-400 w-[50px] active:scale-90 font-bold text-xl'
     >
       Copy
      </button>
