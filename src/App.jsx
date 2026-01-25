@@ -40,13 +40,13 @@ const setPass= useCallback(()=>{
   return (
     <>
     <div className='items-center mx-auto'>
-          <h1 className="text-6xl text-7xl font-black  text-transparent bg-clip-text bg-gradient-to-r from-white via-purple-200 to-gray-500">
+          <h1 className="text-6xl text-7xl font-black  text-transparent bg-clip-text bg-gradient-to-r from-white via-purple-200 to-gray-500 shadow-2xl">
       
         PASSWORD GENERATOR
       </h1>
     </div>
-    <div className='items-center w-full max-w-md mx-auto  bg-gray-800  my-8 p-1 rounded-lg'>
-    <div className='flex m-2 bg-amber-100 rounded-lg overflow-hidden'>
+    <div className='items-center w-full max-w-md mx-auto  bg-gray-800  my-8 p-1 rounded-lg shadow-2xl'>
+    <div className='flex m-2 bg-amber-100 rounded-lg overflow-hidden shadow-2xl'>
      <input type='text' className='border-zink-900 font-bold text-black w-full' value={passowrd}
      readOnly
      placeholder='Password'
@@ -94,7 +94,7 @@ const setPass= useCallback(()=>{
         }}
         className=''>
         </input>
-        <label htmlFor='numberInput' className='text-orange-400 font-bold'>
+        <label htmlFor='numberInput' className='text-orange-400 font-bold '>
           Numbers
         </label>
       </div>
